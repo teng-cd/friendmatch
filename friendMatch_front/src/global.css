@@ -1,0 +1,17 @@
+.add-button {
+    position: fixed;
+    bottom: 60px;
+    width: 50px;
+    right: 12px;
+    height: 50px;
+    border-radius: 50%;
+}
+/* 全局修改所有 Toast 的默认背景 */
+.van-toast {
+  background: rgba(0, 0, 0, 0.7) !important;
+  
+  .van-toast__text {
+    color: #fff;
+    font-size: 14px;
+  }
+}
